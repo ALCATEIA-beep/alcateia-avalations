@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação da Alcateia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Avaliação da Alcateia</h1>
+
+    <div id="nova-avaliacao">
+        <h2>Nova Avaliação:</h2>
+        <label for="nome-usuario">Seu Nome:</label>
+        <input type="text" id="nome-usuario">
+
+        <label for="nome">Nome:</label>
+        <select id="nome">
+            <option value="E.Moura">E.Moura</option>
+            <option value="A.Beatriz">A.Beatriz</option>
+            <option value="Siqueira">Siqueira</option>
+            <option value="Eduarda Melo">Eduarda Melo</option>
+            <option value="Alice">Alice</option>
+            <option value="Isadora">Isadora</option>
+            <option value="Lais Gurgel">Lais Gurgel</option>
+            <option value="Maia">Maia</option>
+            <option value="Adryelle">Adryelle</option>
+            <option value="Geovana">Geovana</option>
+            <option value="Luana Farias">Luana Farias</option>
+            <option value="Beltrao">Beltrao</option>
+            <option value="Gabriela Menezes">Gabriela Menezes</option>
+            <option value="Ana Leticia">Ana Leticia</option>
+        </select>
+
+        <label for="avaliacao">Avaliação (0-10):</label>
+        <input type="number" id="avaliacao" min="0" max="10" value="0">
+
+        <button id="enviar">Enviar Avaliação</button>
+    </div>
+
+    <div id="avaliacoes-alcateia">
+        <h2>Avaliações da Alcateia:</h2>
+        <ul id="lista-avaliacoes"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
